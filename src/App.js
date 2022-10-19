@@ -5,11 +5,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <Login />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/">
-            <Login />
-          </Route>
+          <Route path="/" elements={<Login />} />
         </Routes>
       </BrowserRouter>
 
