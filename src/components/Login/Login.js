@@ -1,6 +1,8 @@
 import React from 'react'
 import './Login.css'
 import loginlogo from "../../assests/login-logo.svg"
+import loginhero from "../../assests/login-hero.svg"
+import google from "../../assests/google.svg"
 
 const Login = (props) => {
     return (
@@ -19,7 +21,18 @@ const Login = (props) => {
                 </div>
             </div>
             <div className='section'>
-                section
+                <div className='hero'>
+                    <h1>Welcome to your professional community</h1>
+                    <img src={loginhero} alt='' />
+                </div>
+                <div className='form'>
+                    <div >
+                        <button className='google'>
+                            <img src={google} alt="" />
+                            Sign in with Google
+                        </button>
+                    </div>
+                </div>
             </div>
 
         </div>
