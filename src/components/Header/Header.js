@@ -28,7 +28,7 @@ const Header = () => {
                 </div>
 
                 <div className='headnav'>
-                    <div className='navlsitwrap'>
+                    <div className='navlistwrap'>
                         <div className='navlist'>
                             <a>
                                 <img src={NavHomeIcon} alt="" />
@@ -38,25 +38,25 @@ const Header = () => {
                         <div className='navlist'>
                             <a>
                                 <img src={Network} alt="" />
-                                <span>Home</span>
+                                <span>My Network</span>
                             </a>
                         </div>
                         <div className='navlist'>
                             <a>
                                 <img src={Jobs} alt="" />
-                                <span>Home</span>
+                                <span>Jobs</span>
                             </a>
                         </div>
                         <div className='navlist'>
                             <a>
                                 <img src={Message} alt="" />
-                                <span>Home</span>
+                                <span>Messaging</span>
                             </a>
                         </div>
                         <div className='navlist'>
                             <a>
                                 <img src={Notifications} alt="" />
-                                <span>Home</span>
+                                <span>Notifications</span>
                             </a>
                         </div>
                     </div>

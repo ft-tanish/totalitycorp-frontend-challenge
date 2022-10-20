@@ -80,7 +80,6 @@
 .navlistwrap {
     display: flex;
     flex-wrap: nowrap;
-    /* list-style-type: none; */
 }
 
 .navlist {
@@ -112,6 +111,7 @@
 @media(max-width: 768px) {
     .navlist>a>span {
         min-width: 70px;
+        justify-content: center;
 
     }
 }
