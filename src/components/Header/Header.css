@@ -87,7 +87,7 @@
     align-items: center;
 }
 
-.navlist>a {
+.navlist a {
     align-items: center;
     background: transparent;
     display: flex;
@@ -102,21 +102,72 @@
     text-decoration: none;
 }
 
-.navlist>a>span {
+.navlist a span {
     color: rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
 }
 
 @media(max-width: 768px) {
-    .navlist>a>span {
+    .navlist a span {
         min-width: 70px;
         justify-content: center;
 
     }
 }
 
-.navlist>a>span:hover,
+.navlist a span:hover,
 :active {
     color: rgba(0, 0, 0, 0.9);
+}
+
+.navlist a span:active::after {
+    content: "";
+    transform: scaleX(1);
+    border-bottom: 2px solid var(--white, #fff);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.9);
+}
+
+.user a svg {
+    width: 24px;
+    border-radius: 50%;
+}
+
+.user a img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.user a span {
+    display: flex;
+    align-items: center;
+}
+
+.work {
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.signout {
+    position: absolute;
+    top: 45px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    transition-duration: 167ms;
+    text-align: center;
+    display: none;
+}
+
+.user:hover .signout {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
