@@ -1,0 +1,22 @@
+.container {
+    padding-top: 52px;
+    max-width: 100%;
+}
+
+.layout {
+    display: grid;
+    grid-template-areas: "leftside main rightside";
+    grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    margin: 25px 0;
+    padding: 65px 84px 0px;
+}
+
+@media (max-width: 768px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5px;
+    }
+}
