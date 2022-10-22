@@ -5,8 +5,8 @@ Login Page & Home Page<br>
 <br>
 Screenshots:
 <br>
-![](readme_assests/linkedIn_login.PNG)
-![](readme_assests/linkedIn_home.PNG)
+![](readme_assests/linkedIn_login.png)
+![](readme_assests/linkedIn_home.png)
 
 # Getting Started with Create React App
 
