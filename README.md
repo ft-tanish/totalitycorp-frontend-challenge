@@ -1,10 +1,11 @@
-<h2>It's a LinkedIn Clone</h2><br>
-TechStak: React (Router, Material Ui), HTML, CSS<br>
-Responsive Design:<br> 
-Login Page & Home Page<br>
-<br>
+<h2>It's a LinkedIn Clone</h2><br/>
+TechStak: React (Router, Material Ui), HTML, CSS<br/>
+Responsive Design:<br/> 
+Login Page & Home Page<br/>
+<br/>
 Screenshots:
-<br>
+<br/>
+
 ![](readme_assests/linkedIn_login.png)
 ![](readme_assests/linkedIn_home.png)
 
