@@ -4,7 +4,7 @@ import Main from '../Main/Main'
 import Right from '../Right/Right'
 import './Home.css'
 
-const Home = (props) => {
+const Home = () => {
     return (
         <div className='homecontainer'>
             <div className='layout'>

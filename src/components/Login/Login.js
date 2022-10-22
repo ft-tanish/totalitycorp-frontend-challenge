@@ -4,7 +4,7 @@ import loginlogo from "../../assests/login-logo.svg"
 import loginhero from "../../assests/login-hero.svg"
 import google from "../../assests/google.svg"
 
-const Login = (props) => {
+const Login = () => {
     return (
         <div className='cointainer'>
             <div className='nav'>
@@ -12,12 +12,16 @@ const Login = (props) => {
                     <img src={loginlogo} alt="" />
                 </a>
                 <div className='top'>
-                    <div className='join'>
-                        Join Now
-                    </div>
-                    <div className='signin'>
-                        Sign in
-                    </div>
+                    <a href="/home">
+                        <div className='join'>
+                            Join Now
+                        </div>
+                    </a>
+                    <a href='/home'>
+                        <div className='signin'>
+                            Sign in
+                        </div>
+                    </a>
                 </div>
             </div>
             <div className='section'>
@@ -27,10 +31,13 @@ const Login = (props) => {
                 </div>
                 <div className='form'>
                     <div >
-                        <button className='google'>
-                            <img src={google} alt="" />
-                            Sign in with Google
-                        </button>
+
+                        <a href="/home" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
+                            <button className='google'>
+                                <img src={google} alt="" />
+                                Sign in with Google
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

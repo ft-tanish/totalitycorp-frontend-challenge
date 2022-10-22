@@ -4,7 +4,7 @@ import itemIcon from '../../assests/item-icon.svg'
 import plusIcon from '../../assests/plus-icon.svg'
 import widgetIcon from '../../assests/widget-icon.svg'
 
-const Left = (props) => {
+const Left = () => {
     return (
         <div className='leftContainer'>
             <div className='artCard'>
