@@ -1,3 +1,13 @@
+<h2>It's a LinkedIn Clone</h2><br>
+TechStak: React (Router, Material Ui), HTML, CSS<br>
+Responsive Design:<br> 
+Login Page & Home Page<br>
+<br>
+Screenshots:
+<br>
+![](readme_assests/linkdIn_login.PNG)
+![](readme_assests/linkdIn_home.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
